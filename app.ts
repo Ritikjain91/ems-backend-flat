@@ -14,7 +14,7 @@ const app: Express = express();
 
 // CORS — allow frontend origin
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: ['http://localhost:3000', 'http://127.0.0.1:3000','https://employee-management-system-ten-drab.vercel.app/'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
